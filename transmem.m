@@ -4,8 +4,8 @@ global a a1 K Res Rus  ;
 T=300;
 k_Boltzmann=1.38e-23;
 q =2.46;
-e=1.60e-19;
-X=q*e/(k_Boltzmann*T);%%95.0725
+qe=1.60e-19;
+X=qe/(k_Boltzmann*T);%%95.0725
 rm=0.80e-9;
 sigma= 1.2;
 dm=5e-9;
